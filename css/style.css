@@ -1,0 +1,68 @@
+.section-padding-top{
+    margin-top: 100px;
+}
+.section-padding-bottom{
+    margin-bottom: 100px;
+}
+.slider{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #ff136f;
+}
+.buy-now-btn{
+    background-image: linear-gradient(to bottom, #ff136f 0%, #ff136f 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+/* category css */
+.category1, .category2, .category3{
+    padding: 10px 30px;
+    /* display: flex; */
+}
+.category1{
+    background-image: linear-gradient(to bottom, orange 0%, orange 100%);
+    /* background-color:orange; */
+}
+.category2{
+    background-image: linear-gradient(to bottom, #ff136f 0%, #ff136f 100%);
+    /* background-color:#ff136f; */
+}
+.category3{
+    background-image: linear-gradient(to bottom, blue 0%, blue 100%);
+    /* background-color:blue; */
+}
+.category1 img, .category2 img, .category3 img{
+    width: 100px;
+}
+/* shoes  */
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+.contact{
+    height: 300px;
+}
+.contact input{
+    border: none;
+    /* padding: 5px; */
+    
+}
+.contact input:focus{
+outline: none;
+}
+footer {
+    margin-top: -85px;
+}
